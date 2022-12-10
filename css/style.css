@@ -1,0 +1,9 @@
+body {
+    font-family: 'Kanit', Arial, Helvetica, sans-serif;
+  }
+
+.top-section {
+    background-image: url("../images/steve.jpg");
+    background-position: center;
+    background-size: cover;
+}
