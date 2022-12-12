@@ -1,38 +1,15 @@
-$blue:    #007bff;
-$indigo:  #6610f2;
-$purple:  #6f42c1;
-$pink:    #e83e8c;
-$red:     #dc3545;
-$orange:  #fd7e14;
-$yellow:  #ffc107;
-$green:   #28a745;
-$teal:    #20c997;
-$cyan:    #17a2b8;
 
-$primary:       $orange;
-$secondary:     $yellow;
-$success:       $red;
-$info:          $cyan;
-$warning:       $yellow;
-$danger:        $red;
-$light:         $orange;
-$dark:          $yellow;
+/*Bootstrap compiled from the local source with changes*/
 
-$white:    rgb(147, 7, 247) !default;
-$gray-100: #9419e1 !default;
-$gray-200: #653396 !default;
-$gray-300: #dd1cc3 !default;
-$gray-400: #872a7a !default;
-$gray-500: #ae267e !default;
-$gray-600: #de107e !default;
-$gray-700: #e90f3e !default;
-$gray-800: #c82050 !default;
-$gray-900: #ef0808 !default;
-$black:    rgb(231, 129, 129) !default;
-
-$border-radius:               2rem;
-$border-radius-lg:            1.5rem;
+/*default border radii*/
+$border-radius:               1.5rem;
+$border-radius-lg:            2rem;
 $border-radius-sm:            1rem;
 
+/*default font*/
+$input-btn-font-family:       'Roboto Mono';
+
+/*primary color */
+$primary: chocolate;
 
 @import "../bootstrap/scss/bootstrap";

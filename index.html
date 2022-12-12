@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/local.css">    
 
     <title>S-R-i-c-e Portfolio</title>
   </head>
@@ -20,7 +21,7 @@
     <div class="container-fluid" id="big">
 
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-        <a class="navbar-brand" href="#"><img src="./images/biohaphazard.png" height="50" width="50"></a>
+        <a class="navbar-brand" href="#contact"><img src="./images/biohaphazard.png" height="50" width="50"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,41 +32,45 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
 
       <div class="jumbotron bg-transparent">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <h1 class="display-4">Family snapshot!</h1>
+        <p class="lead">Lorem The hunter and the hunted ipsum dolor sit amet consectetur adipisicing elit. Reiciendis commodi atque animi magnam aliquam fugit, unde officia pariatur suscipit libero, porro veritatis. Quia placeat blanditiis distinctio debitis alias, porro tempora omnis est aliquam eligendi nesciunt, non voluptas amet nemo dolore!
+        </p>
       </div><!--end jumbotron-->
     </div><!--end big container holds navbar and jumbotron-->
 
     <!--main container holds About, Work and Contact-->
     <main class="container-fluid">
-
-      <section class="row">
+      <!--ABOUT-->
+      <section class="row" id="about">
 
         <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">About</h5>
             </div>
           </div>
         </div>
 
         <div class="cardContainer col-lg-8 col-md-6 col-sm-12">
           <div class="card">
-            <img src="images/2_card.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img class="card-img" src="./images/rice.jpg" alt="Stephen Rice" height="300">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Who are you?</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti asperiores iste debitis laborum facere et totam harum repellat cum.</p>
+              <a href="#big" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -75,24 +80,24 @@
         <hr>
       </div>
 
-      <div class="row">
+      <div class="row" id="work">
 
         <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
           <div class="card">
 
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Work</h5>
             </div>
           </div>
         </div>
 
         <div class="cardContainer col-lg-8 col-md-6 col-sm-12">
           <div class="card">
-            <img src="images/2_card.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./images/code.jpg" class="card-img" alt="code" height="400">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Work 1</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque officiis, consequatur aliquam perspiciatis praesentium suscipit quibusdam. Quis vel aliquid officia.</p>
+              <a href="#big" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -103,10 +108,10 @@
         <hr>
       </div>
 
-      <div class="row">
+      <div class="row" id="work-2">
 
         <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
-          <div class="card">
+          <div class="card border-white">
             <div class="card-body">
             </div>
           </div>
@@ -114,22 +119,22 @@
 
         <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
           <div class="card">
-            <img src="images/5_card.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./images/code.jpg" class="card-img" alt="code" height="250">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Work 2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere aut aliquam illum placeat optio nulla quod quo sunt beatae.</p>
+              <a href="#big" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
 
         <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
           <div class="card">
-            <img src="images/6_card.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <img src="./images/code.jpg" class="card-img" alt="code" height="250">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Work 3</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi quaerat, necessitatibus quis iste officia assumenda maxime perferendis ipsam accusamus quae!</p>
+              <a href="#big" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -140,22 +145,21 @@
         <hr>
       </div>
 
-      <div class="row">
+      <div class="row" id="contact">
 
       <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Skills and Contact</h5>
           </div>
         </div>
       </div>
 
       <div class="cardContainer col-lg-8 col-md-6 col-sm-12">
         <div class="card">
-          <img src="images/2_card.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Skills</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia nihil inventore odio perspiciatis nam reprehenderit quod numquam et officia quaerat.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
@@ -172,10 +176,10 @@
 
     <!-- Footer -->
     <footer>
-      <ul class="list-group list-group-horizontal-sm">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Morbi leo risus</li>
+      <ul class="list-group list-group-horizontal-sm center">
+        <li class="list-group-item list-group-item-action">Cras justo odio</li>
+        <li class="list-group-item  list-group-item-action">Dapibus ac facilisis in</li>
+        <li class="list-group-item list-group-item-action">Morbi leo risus</li>
       </ul>
     </footer>
     <!--end footer -->

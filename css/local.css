@@ -1,0 +1,16 @@
+/*Font*/
+body {
+    font-family: 'Roboto Mono', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-link {
+    color: yellow;
+}
+
+/*Jumbotron background image*/
+#big {
+    background-image: url("../images/steve.jpg");
+    background-position: center;
+    background-size: 828px 587px;
+}
+
