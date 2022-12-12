@@ -1,13 +1,12 @@
+/*local css modifications supplemental to scss variable changes*/
+
 /*Main font*/
 body {
     font-family: 'Roboto Mono', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
-/* Modify brand and text color */
-.nav-link {
-    color: green;
-}
+
 
 /*Jumbotron background image*/
 .jumbotron {

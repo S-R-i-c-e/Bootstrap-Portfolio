@@ -1,5 +1,5 @@
 
-/*Bootstrap compiled from the local source with changes*/
+/*Bootstrap compiled from ./scss/custom.scss source with changes as follows*/
 
 /* Arbitary color changes*/
 $white:    #fff !default;
@@ -24,5 +24,7 @@ $input-btn-font-family:       'Roboto Mono';
 
 /*primary color (buttons) */
 $primary: chocolate;
+
+/*End of Bootstrap variable changes - Bootstrap compiled css follows*/
 
 @import "../bootstrap/scss/bootstrap";
