@@ -1,15 +1,28 @@
 
 /*Bootstrap compiled from the local source with changes*/
 
+/* Arbitary color changes*/
+$white:    #fff !default;
+$gray-100: #ef3349;
+$gray-200: #cd194c;
+$gray-300: #94712b;
+$gray-400: #992e22;
+$gray-500: #f85a05;
+$gray-600: #796432;
+$gray-700: #794567;
+$gray-800: #793a12;
+$gray-900: #793123;
+$black:    #000;
+
 /*default border radii*/
 $border-radius:               1.5rem;
 $border-radius-lg:            2rem;
 $border-radius-sm:            1rem;
 
-/*default font*/
+/*default button font*/
 $input-btn-font-family:       'Roboto Mono';
 
-/*primary color */
+/*primary color (buttons) */
 $primary: chocolate;
 
 @import "../bootstrap/scss/bootstrap";
